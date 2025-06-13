@@ -1,0 +1,12 @@
+# Ignore common files that aren't part of the theme's core code
+.DS_Store
+Thumbs.db
+*.log
+*~
+.vscode/ # If you use VS Code, ignore its settings
+node_modules/ # If you use Node.js for theme development (e.g., for compiling SASS)
+.sass-cache/
+.idea/ # PhpStorm/WebStorm
+.project # Eclipse
+.settings/
+.cache/
